@@ -1,0 +1,29 @@
+id: 01M70BD6J1699GCV82KXJ57XN7
+type: image
+subtype: photo
+title: Luftbild Schnackenburg, schneebedeckt
+date: "2026-01-05"
+origin:
+  name: Sven Fuchs
+  type: person
+location: Schnackenburg
+files:
+  - role: main
+    original_name: DJI_20260105140220_0065_D.JPG
+    path: files/1d/97/1d973401841ad8f6d623da9247bc99b329ec224a4de986a98b563ea3315db8b0/original.jpg
+    sha256: 1d973401841ad8f6d623da9247bc99b329ec224a4de986a98b563ea3315db8b0
+    mime: image/jpeg
+    bytes: 14983168
+    width: 8192
+    height: 4608
+    variants:
+      - kind: preview
+        path: files/1d/97/1d973401841ad8f6d623da9247bc99b329ec224a4de986a98b563ea3315db8b0/preview-400.e28c7c4567b2.jpg
+        sha256: e28c7c4567b243a5a6d8b232fc1e2c9a3d489c16ba33a815e01c82c75970de74
+        mime: image/jpeg
+        bytes: 56091
+        width: 400
+        height: 225
+        generator:
+          name: browser-canvas
+          version: "1"
