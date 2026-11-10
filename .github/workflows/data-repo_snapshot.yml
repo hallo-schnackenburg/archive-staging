@@ -1,0 +1,20 @@
+# Keeps a snapshot of all objects on the branch `snapshot`, so that the app can read the whole archive with one download.
+# The work is done by the workflow of the tool repository; this only starts it.
+name: snapshot
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # to build it by hand, e.g. the first time
+
+# A newer push replaces a snapshot that is still being built.
+concurrency:
+  group: snapshot
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    uses: hallo-schnackenburg/tamandua/.github/workflows/snapshot.yml@main
